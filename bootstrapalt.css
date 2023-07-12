@@ -1,0 +1,66 @@
+/* carousel
+.carousel.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity ease-out .5s;
+}
+.carousel.carousel-fade .carousel-item.active {
+  opacity: 1;
+  transition: opacity ease-out .5s;
+} */
+
+/* button hover color */
+.btn-primary:hover{
+  background-color: rgb(21, 192, 192) !important;
+}
+
+/* horizontaline */
+.hr-blurry{
+  opacity: .5 !important;
+  border: 0;
+  height: 5px !important;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(22, 157, 242), rgba(0, 0, 0, 0)) !important;
+}
+
+/* spacings */
+.h80{height: 80px}
+.h50{height: 50px;}
+.h30{height: 30px;}
+.h15{height: 15px;}
+
+/* hero image */
+.hero-image {
+  background-image: url("Pictures/room4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px; /* Adjust the height as needed */
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+#Contact{
+  background-image: url("Pictures/LogHouse.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px; /* Adjust the height as needed */
+  position: relative;
+}

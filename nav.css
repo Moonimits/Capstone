@@ -1,0 +1,9 @@
+.nav-link:hover{
+    color: rgb(21, 148, 203);
+}
+.active{
+    color: rgb(21, 148, 203) !important;
+}
+.navbar-brand{
+    pointer-events: none;
+}
